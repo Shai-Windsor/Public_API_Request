@@ -7,4 +7,4 @@ You can also search through the people by name with the search bar.
 
 The background color has been changes from its original color.
 
-This shouldn't work in Internet Explorer, since I used fetch and didn't include the polyfill.
+This shouldn't work in Internet Explorer, since I used fetch without the polyfill.
