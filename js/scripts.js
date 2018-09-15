@@ -161,7 +161,6 @@ fetch('https://randomuser.me/api/?results=12&nat=au,es,fi,gb,ie,nz,us')
   .then(response => response.json())
   .then(data => data.results)
   .then(group => {
-    console.log(group);
     people = group;
     createCard(people);
   })
