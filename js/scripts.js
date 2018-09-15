@@ -1,3 +1,10 @@
+/*
+Public API Request requests 12 random users from randomuser.me and displays each user's info in a card.
+Clicking on the card will open a modal window containing more details about the person.
+You can go back and forth through the list of people when the modal window is open with the "prev" and "next" buttons.
+You can also search through the people by name with the search bar.
+*/
+
 const body = document.querySelector('body');
 const gallery = document.querySelector('#gallery');
 const searchDiv = document.querySelector('.search-container');
